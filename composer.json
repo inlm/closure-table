@@ -1,0 +1,19 @@
+{
+	"name": "inlm/closure-table",
+	"type": "library",
+	"description": "Traits for Closure Table in LeanMapper",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Jan Pecha",
+			"homepage": "http://www.janpecha.cz/"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"tharos/leanmapper": "~2.2"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
