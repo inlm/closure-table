@@ -126,7 +126,9 @@
 			foreach ($rows as $row) {
 				$entityRow = $row->referenced($table, $direction);
 				$entityRow->depth = $row->depth;
-				$entities[$entityRow->$primaryKey] = new static($entityRow);
+				$entity = new static($entityRow);
+				$entity->makeAlive($this->entityFactory);
+				$entities[$entityRow->$primaryKey] = $entity;
 			}
 			return $entities;
 		}
