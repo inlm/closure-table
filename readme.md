@@ -92,4 +92,4 @@ $category->getDepth(); // returns entity depth in collection, for standalone ent
 ------------------------------
 
 License: [New BSD License](license.md)
-<br>Author: Jan Pecha, http://www.janpecha.cz/
+<br>Author: Jan Pecha, https://www.janpecha.cz/
